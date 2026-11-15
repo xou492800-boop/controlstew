@@ -1,4 +1,4 @@
-name: Build ControlStew
+name: Build XOSControlStew
 
 on:
   push:
@@ -26,5 +26,5 @@ jobs:
       - name: Upload plugin jar
         uses: actions/upload-artifact@v4
         with:
-          name: ControlStew
-          path: target/ControlStew-*.jar
+          name: XOSControlStew
+          path: target/XOSControlStew.jar
