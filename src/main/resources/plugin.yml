@@ -1,0 +1,8 @@
+name: XOSControlStew
+version: 1.0
+main: dev.xoscontrolstew.XOSControlStew
+api-version: "1.20"
+commands:
+  controlstew:
+    description: XOSControlStew
+    usage: /controlstew
